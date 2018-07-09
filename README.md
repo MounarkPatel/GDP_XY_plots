@@ -59,13 +59,21 @@ Linux:
 As the format of the CSV file that stores the GDP data could change (or you could acquire data from somewhere else), the functions that operate directly on the data will all take a "gdpinfo" dictionary that provides information about the file. 
 
 gdpinfo = {
+
         "gdpfile": "isp_gdp.csv",        # Name of the GDP CSV file
+        
         "separator": ",",                # Separator character in CSV file
+        
         "quote": '"',                    # Quote character in CSV file
+        
         "min_year": 1960,                # Oldest year of GDP data in CSV file
+        
         "max_year": 2015,                # Latest year of GDP data in CSV file
+        
         "country_name": "Country Name",  # Country name field name
+        
         "country_code": "Country Code"   # Country code field name
+        
     }
     
 # Testing
