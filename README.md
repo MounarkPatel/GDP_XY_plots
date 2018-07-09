@@ -15,8 +15,7 @@ Linux:
 http://docs.python-guide.org/en/latest/starting/install3/linux/
 # Installing pygal
 *Pip is sometimes included automatically when Python is installed to your system, and sometimes you have to install it yourself. 
-If you do not have pip
-
+If you do not have pip*
 OS X: 
 1. open terminal
 2. sudo easy_install pip
