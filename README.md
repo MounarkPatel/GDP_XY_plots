@@ -1,5 +1,5 @@
 # GDP_XY_plots
-Code to read World Bank GDP data and create some basic XY plots.
+Code to read World Bank GDP data from 1960- 2015 and create some basic XY plots. Note the csv file used is direclty from the World Bank the only difference is that the missing GDP data was handled in a consistent way so that analysis would be easier.
 # Installing Python 3
 Install python 3. 
 Preffered Method: 
@@ -36,22 +36,22 @@ Type "pip install pygal". For more information about pygal, http://pygal.org/en/
 Preffered Method: open Spyder from anaconda. Spyder is open source IDE that automatically comes with several scripting libraries.
 #
 OS X: 
-1. Create a folder to run code in this repo. Download the code and csv files and move it to this folder.
+1. Create a folder to run code in this repo. Download the code and csv file and move it to this folder.
 2. Open Terminal.
 3. cd to the folder
-4. Type "python ./csvread.py" to run this program. 
-NOTE: If you have python 2 and python 3 installed run "python3 csvread.py"
+4. Type "python ./GDP.py" to run this program. 
+NOTE: If you have python 2 and python 3 installed run "python3 GDP.py"
 #
 Windows:
-1. Create a folder to run code in this repo. Download the code and csv files and move it to this folder.
+1. Create a folder to run code in this repo. Download the code and csv file and move it to this folder.
 2. Open Command Prompt.
 3. cd \ to the folder
-4. Type "csvread.py" to run this program. 
+4. Type "GDP.py" to run this program. 
 NOTE: If it didn't work, make sure your PATH contains the python directory.
 #
 Linux: 
-1. Create a folder to run code in this repo. Download the code and csv files and move it to this folder.
+1. Create a folder to run code in this repo. Download the code and csv file and move it to this folder.
 2. Open up the terminal program. In KDE, open the main menu and select "Run Command..." to open Konsole. In GNOME, open the main menu, open the Applications folder, open the Accessories folder, and select Terminal.
 3. cd ~/ to the folder
-4. Type "chmod a+x csvread.py" to tell Linux that it is an executable program.
-5. Type "./csvread.py" to run this program. 
+4. Type "chmod a+x GDP.py" to tell Linux that it is an executable program.
+5. Type "./GDP.py" to run this program. 
