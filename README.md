@@ -58,7 +58,8 @@ Linux:
 # Working with the CSV file
 As the format of the CSV file that stores the GDP data could change (or you could acquire data from somewhere else), the functions that operate directly on the data will all take a "gdpinfo" dictionary that provides information about the file. 
 
-gdpinfo = {
+gdpinfo = 
+{
 
         "gdpfile": "isp_gdp.csv",        # Name of the GDP CSV file
         
@@ -74,7 +75,7 @@ gdpinfo = {
         
         "country_code": "Country Code"   # Country code field name
         
-    }
+}
     
 # Testing
 Function test_render_xy_plot() has three calls to render_xy_plot one with an empty list, China and the United Kingdom and the United States. The xy plots should respectively plot No Data, China's data and both countires data. When you run GDP.py you go to the folder where you saved GDP.py and right-click on the svg images and open them in your browser. The plots should be the same as the ones in this repo and to see that the data in these plots is correct feel free to check the csv file, as the trends seen in the XY plot can be seen in the csv file.
